@@ -1,0 +1,28 @@
+
+.pointer {
+    cursor : pointer
+}
+.video-align-center{
+    text-align: center;
+}
+
+.logout{
+    fill: #abcdef;
+}
+
+.md-center {
+    margin-left: auto;
+    margin-right: auto;
+    left: 0; right: 0;
+    width: 30%;
+}
+.parent{
+    width:80%;
+    margin: 0 auto
+}
+
+
+.homepage{
+    background-image : url("../assets/background.jpg");
+    height: auto;
+}

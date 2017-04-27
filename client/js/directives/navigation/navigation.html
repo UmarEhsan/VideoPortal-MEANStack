@@ -1,0 +1,19 @@
+<div class="nav">
+    <md-toolbar>
+        <div class="md-toolbar-tools">
+
+            <md-truncate ui-sref="videos" class="pointer">Video Portal</md-truncate>
+
+
+            <span flex=""></span>
+            <ng-md-icon  ng-if="isLoggedIn" ng-click="logOut()" class="logout pointer" icon="logout"  size="40"></ng-md-icon>
+            <ng-md-icon  ng-if="!isLoggedIn"  class="logout pointer" icon="login"  size="40"></ng-md-icon>
+
+
+        </div>
+    </md-toolbar>
+</div>
+
+
+
+  

@@ -1,0 +1,33 @@
+
+
+    <div flex  layout-xs="100" layout-gt-xs="100" layout="column">
+        <md-card>
+            <md-card-header>
+                <md-card-header-text layout-align="center center" >
+                    <span class="md-title" >{{videoDetail.name}}</span>
+                </md-card-header-text>
+            </md-card-header>
+
+            <video ng-src="{{videoDetail.url}}" autobuffer controls id="video-detail" style="margin:0 auto"  width="100%" height="400px" >
+                <!--<source id="mp4" ng-src="{{videoDetail.url | trustUrl}}" type="video/mp4">-->
+            </video>
+            <md-card-title>
+                <md-card-title-text>
+                    <span class="md-headline">Ratings</span>
+
+                    <jk-rating-stars  class=""  rating="videoDetail.overAllRating" read-only="readOnly" on-rating="onRating(videoDetail, rating)" >
+                    </jk-rating-stars>
+                </md-card-title-text>
+            </md-card-title>
+            <md-card-header>
+                <md-card-header-text  >
+                    <span class="md-title"  >Description</span>
+                </md-card-header-text>
+            </md-card-header>
+            <md-card-content>
+                <p l]]>
+                   {{videoDetail.description}}
+                </p>
+            </md-card-content>
+        </md-card>
+    </div>

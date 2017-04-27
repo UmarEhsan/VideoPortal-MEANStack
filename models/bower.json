@@ -1,0 +1,27 @@
+{
+  "name": "client",
+  "authors": [
+    "UmarEhsan <ehsanumar123@outlook.com>"
+  ],
+  "description": "\"VideoPortal\"",
+  "main": "js/app.js",
+  "keywords": [
+    "\"Angular",
+    "node",
+    "videos\""
+  ],
+  "license": "MIT",
+  "homepage": "",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular": "^1.6.3",
+    "angular-material": "^1.1.3"
+  }
+}
